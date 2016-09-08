@@ -8,7 +8,7 @@ apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev -y
 apt-get install libxvidcore-dev libx264-dev -y
 #install gtk
 apt-get install libgtk2.0-dev -y
-apt-get install libatlas-base-dev gfortran
+apt-get install libatlas-base-dev gfortran -y
 
 apt-get install python2.7-dev python3-dev -y
 
@@ -21,3 +21,4 @@ unzip opencv_contrib.zip
 wget https://bootstrap.pypa.io/get-pip.py
 python get-pip.py
 pip install virtualenv virtualenvwrapper
+echo “THAT IS AS FAR AS IM GOOING NOW CHANGE THE PROFILE FILE AROUND STEP 3 on website.”
